@@ -1,0 +1,81 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+}
+body>br+br+center{
+    font-size: 18px;
+    font-weight: bold;
+}
+select {
+    border:1px solid #aaa;
+    padding:7px 15px;
+    border-radius: 5px;
+}
+
+input[type='text'],input[type='password'],input[type='number'],input[type='email'] {
+    border:1px solid #aaa;
+    padding:7px 15px;
+    border-radius: 5px;
+}
+input[type='submit'],input[type='reset'],input[type='button'],button{
+    padding:5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #1e9fff;
+    color:#fff;
+    border:1px solid #1e9fff;
+    cursor: pointer;
+}
+
+input[type='submit']:hover,input[type='reset']:hover,input[type='button']:hover,button:hover{
+    background-color: #31bdec;
+}
+input[disabled],input[disabled]:hover{
+    border:1px solid #aaa;
+    background-color: #bbb;
+    color: #999;
+    cursor: not-allowed;
+}
+.form-table{
+    border-collapse: collapse;
+}
+.form-table, .form-table td {
+    border:1px solid #888;
+    padding:5px;
+    box-sizing: content-box;
+}
+
+.form-table td:first-child{
+    text-align: right;
+}
+
+.form-table-btns{
+    text-align: center!important;
+}
+.form-search{
+    display: flex;
+    width:100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left:10px;
+}
+.list-table{
+    border-collapse: collapse;
+    width:99%;
+}
+
+.list-table, .list-table td, .list-table th {
+    border:1px solid #777;
+    padding:5px;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.list-table th{
+    background-color: #31bdec;
+    color:#fff;
+}
